@@ -973,7 +973,7 @@ EOTEXT
       }
     }
 
-    $limit = 1024 * 1024 * 4;
+    $limit = 1024 * 1024 * 8;
     foreach ($changes as $change) {
       $size = 0;
       foreach ($change->getHunks() as $hunk) {
